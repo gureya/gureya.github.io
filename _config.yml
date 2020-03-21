@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jfif
+picture: assets/images/twitter_pic.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: gureya.david
 twitter: daharewa
 # google: mygoogle
 # instagram: myinstagram
@@ -54,7 +54,7 @@ github: gureya
 email: gureya.daharewa@gmail.com
 
 authors:
-    johndoe:
+    davidgureya:
         name: David Gureya
         #bio: A Man who travels the world eating noodles
         external-image: false
@@ -109,7 +109,7 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://gureya.github.io/
 
 compress_html:
     ignore:
