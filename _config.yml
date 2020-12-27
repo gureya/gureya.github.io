@@ -12,9 +12,9 @@ picture: assets/images/twitter_pic.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false
+resume: true
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume-url: http://gureya.github.io/CV_David_Daharewa_GUREYA
 
 #url: https://koppl.in/indigo
 url: http://gureya.github.io
