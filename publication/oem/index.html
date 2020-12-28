@@ -21,17 +21,17 @@
   
   
 
-  <meta name="author" content="Shuang Chen">
+  <meta name="author" content="David Gureya">
 
   
   
   
     
   
-  <meta name="description" content="Multi-tenancy in modern datacenters is currently limited to a single latency-critical, interactive service, running alongside one or more low-priority, best-effort jobs. This limits the efficiency gains from multi-tenancy, especially as most cloud applications progressively shift from batch jobs to services with strict latency requirements. We present PARTIES, a QoS-aware resource manager that enables an arbitrary number of interactive, latency-critical services to share a physical node without QoS violations. PARTIES leverages a set of hardware and software resource partitioning mechanisms to adjust allocations dynamically at runtime, to meet QoS of each co-scheduled workload and maximize throughput for the machine. We evaluate PARTIES on state-of-the-art server platforms across a set of diverse interactive services. Our results show that PARTIES improves throughput under QoS by 61% on average compared to existing resource managers, and that the rate of improvement increases with the number of co-scheduled applications per physical host. ">
+  <meta name="description" content="The pay-as-you-go pricing model and the illusion of unlimited resources in the Cloud initiate the idea to provision services elastically. Elastic provisioning of services allocates/deallocates resources dynamically in response to the changes of the workload. It minimizes the service provisioning cost while maintaining the desired service level objectives (SLOs). Model-predictive control is often used in building such elasticity controllers that dynamically provision resources. However, they need to be trained, either online or offline, before making accurate scaling decisions. The training process involves tedious and significant amount of work as well as some expertise, especially when the model has many dimensions and the training granularity is fine, which is proved to be essential in order to build an accurate elasticity controller. In this paper, we present OnlineElastMan, which is a selftrained proactive elasticity manager for cloud-based storage services. It automatically trains and evolves itself while serving the workload. Experiments using OnlineElastMan with Cassandra indicate that OnlineElastMan continuously improves its provision accuracy, i.e., minimizing provisioning cost and SLO violations, under various workload patterns. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sc2682cornell.github.io/publication/parties/">
+  <link rel="alternate" hreflang="en-us" href="https://gureya.github.io/publication/oem/">
 
   
 
